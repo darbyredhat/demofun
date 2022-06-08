@@ -11,10 +11,10 @@ public class DemoController {
     
     private Logger logger = Logger.getLogger(getClass().getName());
 
-    // @Value("${fav.city}")
+    @Value("${fav.city}")
     private String favCity;
 
-    // @Value("${fav.sport}")
+    @Value("${fav.sport}")
     private String favSport;
     
     @GetMapping("/hello")
